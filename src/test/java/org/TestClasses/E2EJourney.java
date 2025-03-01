@@ -59,6 +59,7 @@ public class E2EJourney {
         pom.viewCart();
         pom.selectCheckoutButton();
         Assert.assertEquals(pom.verifyContactDetails(),email);
+        System.out.println("code completed");
 
     }
 
