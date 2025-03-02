@@ -48,13 +48,14 @@ public class E2EJourney {
         pom.hittingProductPageUrl();
         wait.until(ExpectedConditions.titleContains("An Amazing EverShop Store"));
         pom.selectProduct();
+        Thread.sleep(2000);
         Assert.assertEquals(driver.getTitle(),"Nike React Phantom Run Flyknit 2");
         pom.selectSize().click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         pom.selectColour().click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         pom.selectQuantity("1");
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         pom.clickingAddToCart();
         pom.viewCart();
         pom.selectCheckoutButton();
