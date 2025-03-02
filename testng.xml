@@ -3,7 +3,7 @@
 <suite name="MySuite">
     <test name="MyTest">
         <classes>
-            <class name="org.POMClasses.E2EPageObjectModel"/>
+            <class name="org.TestClasses.E2EJourney"/>
         </classes>
     </test>
 </suite>
