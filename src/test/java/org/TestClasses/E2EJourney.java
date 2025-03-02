@@ -61,7 +61,7 @@ public class E2EJourney {
         pom.selectCheckoutButton();
         Assert.assertEquals(pom.verifyContactDetails(),email);
         System.out.println("code completed");
-        System.out.println("Code completed for Branch: Bhavya");
+        System.out.println("Code completed for Branch: BhavyaT");
 
     }
 
